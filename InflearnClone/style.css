@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerBackWiteLogo {
+    width: 30px;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 5px;
+}
+.fixedHeader {
+    width: 100vw;
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 0.1em solid;
+    border-color: #f6f6f6;
+}
+#headerInput {
+    width: 50em;
+    height: 2em;
+    border-radius: 10px;
+    border-color: #d7dbe1;
+    background-color: #f6f6f6;
+}
+
+#headerInput:active {
+    border-style: #3ecc80;
+}
+
+#headerButton {
+    width: 6em;
+    height: auto;
+}
+
+.career {
+    width: 25px;
+    height: 23px;
+}
+
+.headerListL {
+    width: 15em;
+    height: 2.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 3em;
+    top: 0%;
+}
+.headerListR {
+    margin-right: 2em;
+    position: absolute;
+    right: 2em;
+    top: 1%;
+}
+
+.loading {
+    color: black;
+    text-decoration-line: none;
+    border: 1px;
+}
+#witeLogoP {
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 0.5em;
+    padding-top: 1em;
+}
+
+.loading li {
+    list-style: none;
+    float: left;
+    font-size: 16px;
+}
+li:hover {
+    color: #3ecc80;
+}
+
+.scrollHeader {
+    width: 100vw;
+    height: 7vh;
+    background-color: #fff;
+    position: fixed;
+    top: 50px;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-top: 5px;
+}
+.mainHeaderImg {
+    width: 9em;
+    height: auto;
+    margin: 1em 2em 0px 45px;
+}
+.mainHeader li {
+    list-style: none;
+    font-size: 20px;
+    margin-right: 2em;
+}
+
+#fixedheader {
+    color: red;
+}
+
+main {
+    width: 100vw;
+    height: 28em;
+    background-color: greenyellow;
+}
